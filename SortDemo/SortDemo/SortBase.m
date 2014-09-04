@@ -14,6 +14,7 @@
 {
     SortBase *sort = [[self alloc] init];
     [sort executeSort];
+    
     return sort;
 }
 
@@ -26,6 +27,7 @@
 #pragma mark -
 - (NSMutableArray *)data
 {
+    srand(time(0));//设置随机数种子
     NSMutableArray *data = [NSMutableArray new];
     for (int i = 0; i < 10; i ++)
     {
