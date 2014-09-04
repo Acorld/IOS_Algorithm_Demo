@@ -38,7 +38,7 @@
                 [data replaceObjectAtIndex:i withObject:temp];
                 i++;//前端索引+1
             }
-            
+//            NSLog(@"1111：data:%@",data);
             while (i < j && [data[i] intValue] <= pivot) i++;
             if(i < j)
             {
@@ -48,6 +48,7 @@
                 [data replaceObjectAtIndex:i withObject:temp];
                 j--;//后端索引-1
             }
+//            NSLog(@"2222：data:%@",data);
         }
         data[i] = @(pivot);//基准点归位
 //         NSLog(@"每一轮排序后：data:%@",data);
