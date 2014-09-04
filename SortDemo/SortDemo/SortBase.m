@@ -8,6 +8,7 @@
 
 #import "SortBase.h"
 #import "Headers.h"
+#define kCountOfNumbers 10
 @implementation SortBase
 
 + (id)sort
@@ -29,9 +30,9 @@
 {
     srand(time(0));//设置随机数种子
     NSMutableArray *data = [NSMutableArray new];
-    for (int i = 0; i < 10; i ++)
+    for (int i = 0; i < kCountOfNumbers; i ++)
     {
-        [data addObject:@(rand() % 100)];
+        [data addObject:@(rand() % (kCountOfNumbers * 10))];
     }
     return data;
 }

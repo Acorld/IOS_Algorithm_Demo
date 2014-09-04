@@ -17,7 +17,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 //    [BubbleSort sort];
-    [QuickSort sort];
+//    [QuickSort sort];
+    [SelectSort sort];
 }
 
 - (void)didReceiveMemoryWarning {

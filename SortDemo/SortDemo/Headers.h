@@ -11,6 +11,7 @@
 
 #import "BubbleSort.h"
 #import "QuickSort.h"
+#import "SelectSort.h"
 
 #define Crash(description) NSAssert((1 != 1), description);
 
