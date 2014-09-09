@@ -19,7 +19,8 @@
 //    [BubbleSort sort];
 //    [QuickSort sort];
 //    [SelectSort sort];
-    [BubbleSortNew1 sort];
+//    [BubbleSortNew1 sort];
+    [SelectSortNew1 sort];
 }
 
 - (void)didReceiveMemoryWarning {

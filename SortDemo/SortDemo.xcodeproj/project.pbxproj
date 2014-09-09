@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2E7C5B8819B8C96F002B8AAB /* SelectSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E7C5B8719B8C96F002B8AAB /* SelectSort.m */; };
+		2E9BBFBF19BF619200D65E31 /* SelectSortNew1.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9BBFBE19BF619200D65E31 /* SelectSortNew1.m */; };
 		2E9D10D719B757420093D950 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9D10D619B757420093D950 /* main.m */; };
 		2E9D10DA19B757420093D950 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9D10D919B757420093D950 /* AppDelegate.m */; };
 		2E9D10DD19B757420093D950 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9D10DC19B757420093D950 /* ViewController.m */; };
@@ -34,6 +35,8 @@
 /* Begin PBXFileReference section */
 		2E7C5B8619B8C96F002B8AAB /* SelectSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectSort.h; sourceTree = "<group>"; };
 		2E7C5B8719B8C96F002B8AAB /* SelectSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectSort.m; sourceTree = "<group>"; };
+		2E9BBFBD19BF619200D65E31 /* SelectSortNew1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectSortNew1.h; sourceTree = "<group>"; };
+		2E9BBFBE19BF619200D65E31 /* SelectSortNew1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectSortNew1.m; sourceTree = "<group>"; };
 		2E9D10D119B757420093D950 /* SortDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SortDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E9D10D519B757420093D950 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E9D10D619B757420093D950 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -150,6 +153,8 @@
 				2E9D110219B767D40093D950 /* QuickSort.m */,
 				2E7C5B8619B8C96F002B8AAB /* SelectSort.h */,
 				2E7C5B8719B8C96F002B8AAB /* SelectSort.m */,
+				2E9BBFBD19BF619200D65E31 /* SelectSortNew1.h */,
+				2E9BBFBE19BF619200D65E31 /* SelectSortNew1.m */,
 				46FE39A119B9644900BAE200 /* InsertSort.h */,
 				46FE39A219B9644900BAE200 /* InsertSort.m */,
 			);
@@ -261,6 +266,7 @@
 				46E506D019BF010B00AB5897 /* BubbleSortNew1.m in Sources */,
 				2E9D10DA19B757420093D950 /* AppDelegate.m in Sources */,
 				46FE39A319B9644900BAE200 /* InsertSort.m in Sources */,
+				2E9BBFBF19BF619200D65E31 /* SelectSortNew1.m in Sources */,
 				2E9D10D719B757420093D950 /* main.m in Sources */,
 				2E9D110019B75A0A0093D950 /* SortBase.m in Sources */,
 				2E9D10FC19B7578F0093D950 /* BubbleSort.m in Sources */,
