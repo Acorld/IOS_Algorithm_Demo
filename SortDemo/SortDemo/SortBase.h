@@ -7,6 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
+
+@interface NSNumber (AC_CompareInt)
+
+- (BOOL)isLargerThan:(NSNumber *)number;
+
+@end
+
 /*
  
  排序法    最差时间分析      平均时间复杂度         稳定度     空间复杂度

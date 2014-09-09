@@ -10,13 +10,6 @@
 
 @implementation BubbleSort
 
-+ (id)sort
-{
-    BubbleSort *sort = [[BubbleSort alloc] init];
-    [sort executeSort];
-    return sort;
-}
-
 - (void)executeSort
 {
     NSLog(@"<---------冒泡排序--------->");

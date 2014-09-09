@@ -6,8 +6,21 @@
 //  Copyright (c) 2014年 Acorld. All rights reserved.
 //
 
+
+
 #import "SortBase.h"
 #import "Headers.h"
+
+@implementation NSNumber (AC_CompareInt)
+
+- (BOOL)isLargerThan:(NSNumber *)number
+{
+    if (self.intValue > number.intValue) return YES;
+    return NO;
+}
+
+@end
+
 #define kCountOfNumbers 10
 @implementation SortBase
 
