@@ -21,7 +21,7 @@
         for (int i = 0; i < numbers.count - 1; i ++)
         {
             pos = i;
-            for (int j = i + 1; j < numbers.count; j ++)
+            for (int j = i + 1; j < numbers.count; j ++)//求当前循环最新索引
             {
                 if ([numbers[pos] intValue] > [numbers[j] intValue])
                 {
