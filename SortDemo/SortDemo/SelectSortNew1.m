@@ -40,12 +40,16 @@
                 }
             }
             
+            
             if (min != i)
             {
                 //交换最小值
                 temp = numbers[i];
                 [numbers replaceObjectAtIndex:i withObject:numbers[min]];
                 [numbers replaceObjectAtIndex:min withObject:temp];
+                
+                //本次替换可能改变最大值索引
+                if (max == i) max = min;
             }
             
             if (max != count-1-i)
