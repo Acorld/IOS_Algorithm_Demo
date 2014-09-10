@@ -19,13 +19,9 @@
 //    [BubbleSort sort];
 //    [QuickSort sort];
 //    [SelectSort sort];
+//    [InsertSort sort];
 //    [BubbleSortNew1 sort];
     [SelectSortNew1 sort];
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 @end
