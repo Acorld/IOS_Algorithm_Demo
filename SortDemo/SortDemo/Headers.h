@@ -15,6 +15,7 @@
 #import "InsertSort.h"
 #import "BubbleSortNew1.h"
 #import "SelectSortNew1.h"
+#import "ShellSort.h"
 
 #define Crash(description) NSAssert((1 != 1), description);
 
