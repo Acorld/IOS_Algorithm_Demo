@@ -173,6 +173,8 @@
 			isa = PBXGroup;
 			children = (
 				2E92777A19C559E600C1EA87 /* SortHeaders.h */,
+				2E92778919C559EE00C1EA87 /* SortBase.h */,
+				2E92778A19C559EE00C1EA87 /* SortBase.m */,
 				2E92777B19C559EE00C1EA87 /* BubbleSort.h */,
 				2E92777C19C559EE00C1EA87 /* BubbleSort.m */,
 				2E92777D19C559EE00C1EA87 /* BubbleSortNew1.h */,
@@ -187,8 +189,6 @@
 				2E92778619C559EE00C1EA87 /* SelectSortNew1.m */,
 				2E92778719C559EE00C1EA87 /* ShellSort.h */,
 				2E92778819C559EE00C1EA87 /* ShellSort.m */,
-				2E92778919C559EE00C1EA87 /* SortBase.h */,
-				2E92778A19C559EE00C1EA87 /* SortBase.m */,
 			);
 			name = Sort;
 			sourceTree = "<group>";
@@ -504,6 +504,7 @@
 				2E92776A19C5597700C1EA87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2E92776B19C5597700C1EA87 /* Build configuration list for PBXNativeTarget "AlgorithmDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +513,7 @@
 				2E92776D19C5597700C1EA87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

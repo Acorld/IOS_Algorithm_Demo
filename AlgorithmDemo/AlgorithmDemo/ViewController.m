@@ -14,19 +14,20 @@
 @end
 
 @implementation ViewController
-            
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     
     [self testSearch];
-    [self testSort];
+//    [self testSort];
 }
 
 #pragma mark - Search
 #pragma mark -
 - (void)testSearch
 {
-    [SimpleSearch search];
+//    [SimpleSearch search];
+    [DichotomySearch search];
 }
 
 #pragma mark - Sort

@@ -24,6 +24,12 @@
 #define kCountOfNumbers 10
 @implementation SortBase
 
++ (id)base
+{
+    SortBase *sort = [[self alloc] init];    
+    return sort;
+}
+
 + (id)sort
 {
     SortBase *sort = [[self alloc] init];
@@ -45,6 +51,13 @@
     }];
     
     NSLog(@"<---------%@--------->",[self description]);
+}
+
+- (NSArray *)sortInData:(NSMutableArray *)numbers
+{
+    NSString *str = [NSString stringWithFormat:@"implementation (%@) it in subclass!",NSStringFromSelector(_cmd)];
+    Crash(str)
+    return nil;
 }
 
 - (void)sortInData:(NSMutableArray *)numbers complemetion:(SortResult)result

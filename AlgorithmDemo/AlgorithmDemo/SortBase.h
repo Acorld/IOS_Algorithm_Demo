@@ -35,20 +35,46 @@ typedef void(^SortResult)(NSArray *resultData);
 @interface SortBase : NSObject
 
 //*********外部直接调用*********//
-//执行排序
+/**
+ * 初始化
+ *
+ * @return
+ */
++ (id)base;
+
+/**
+ *  执行排序
+ *
+ *  @return
+ */
 + (id)sort;
 
 
 //*********不建议直接调用*********//
 
-//数据源
+/**
+ *  数据源
+ *
+ *  @return
+ */
 - (NSMutableArray *)data;
 
 /**
- * 查找的实际方法
- * @param numbers  数据源
- * @return result block
+ *  排序的实际方法
+ *
+ *  @param numbers 数据源
+ *  @param result  result block
+ */
+- (NSArray *)sortInData:(NSMutableArray *)numbers;
+
+/**
+ *  排序的实际方法-block
+ *
+ *  @param numbers 数据源
+ *  @param result  result block
  */
 - (void)sortInData:(NSMutableArray *)numbers complemetion:(SortResult)result;
+
+
 @end
 

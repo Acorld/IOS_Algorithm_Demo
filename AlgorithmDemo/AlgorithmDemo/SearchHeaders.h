@@ -10,6 +10,6 @@
 #define SearchDemo_Headers_h
 
 #import "SimpleSearch.h"
-
+#import "DichotomySearch.h"
 
 #endif

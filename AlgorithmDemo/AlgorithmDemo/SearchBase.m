@@ -23,6 +23,12 @@
 
 const int kSearchTarget = 8;
 
++ (id)base
+{
+    SearchBase *search = [[self alloc] init];    
+    return search;
+}
+
 + (id)search
 {
     SearchBase *search = [[self alloc] init];
@@ -43,7 +49,7 @@ const int kSearchTarget = 8;
      {
          if (targetIndex != NSIntegerMax)
          {
-             NSLog(@"目标找到:%d",targetIndex);
+             NSLog(@"目标找到:Index---------> %d <-----------",targetIndex);
          }else NSLog(@"目标未找到");
      }];
     

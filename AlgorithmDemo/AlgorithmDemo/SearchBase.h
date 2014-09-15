@@ -19,20 +19,35 @@ extern const int kSearchTarget;
 @interface SearchBase : NSObject
 
 //*********外部直接调用*********//
-//执行查找
-+ (id)search;
+/**
+ *  初始化
+ *
+ *  @return
+ */
++ (id)base;
 
+/**
+ *  执行查找
+ *
+ *  @return
+ */
++ (id)search;
 
 //*********不建议直接调用*********//
 
-//数据源
+/**
+ *  数据源
+ *
+ *  @return
+ */
 - (NSMutableArray *)data;
 
 /**
- * 查找的实际方法
- * @param target 要搜索的数字
- * @param array  数据源
- * @return result block
+ *  查找的实际方法
+ *
+ *  @param target 要搜索的数字
+ *  @param array 数据源
+ *  @param result  result block
  */
 - (void)searchTarget:(int)target inData:(NSMutableArray *)array complemetion:(SearchResult)result;
 
