@@ -14,10 +14,24 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2E9D10D019B757420093D950"
-               BuildableName = "SortDemo.app"
-               BlueprintName = "SortDemo"
-               ReferencedContainer = "container:SortDemo.xcodeproj">
+               BlueprintIdentifier = "2E92774719C5597700C1EA87"
+               BuildableName = "AlgorithmDemo.app"
+               BlueprintName = "AlgorithmDemo"
+               ReferencedContainer = "container:AlgorithmDemo.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2E92775D19C5597700C1EA87"
+               BuildableName = "AlgorithmDemoTests.xctest"
+               BlueprintName = "AlgorithmDemoTests"
+               ReferencedContainer = "container:AlgorithmDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,14 +42,24 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2E92775D19C5597700C1EA87"
+               BuildableName = "AlgorithmDemoTests.xctest"
+               BlueprintName = "AlgorithmDemoTests"
+               ReferencedContainer = "container:AlgorithmDemo.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2E9D10D019B757420093D950"
-            BuildableName = "SortDemo.app"
-            BlueprintName = "SortDemo"
-            ReferencedContainer = "container:SortDemo.xcodeproj">
+            BlueprintIdentifier = "2E92774719C5597700C1EA87"
+            BuildableName = "AlgorithmDemo.app"
+            BlueprintName = "AlgorithmDemo"
+            ReferencedContainer = "container:AlgorithmDemo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -51,10 +75,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2E9D10D019B757420093D950"
-            BuildableName = "SortDemo.app"
-            BlueprintName = "SortDemo"
-            ReferencedContainer = "container:SortDemo.xcodeproj">
+            BlueprintIdentifier = "2E92774719C5597700C1EA87"
+            BuildableName = "AlgorithmDemo.app"
+            BlueprintName = "AlgorithmDemo"
+            ReferencedContainer = "container:AlgorithmDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -69,10 +93,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2E9D10D019B757420093D950"
-            BuildableName = "SortDemo.app"
-            BlueprintName = "SortDemo"
-            ReferencedContainer = "container:SortDemo.xcodeproj">
+            BlueprintIdentifier = "2E92774719C5597700C1EA87"
+            BuildableName = "AlgorithmDemo.app"
+            BlueprintName = "AlgorithmDemo"
+            ReferencedContainer = "container:AlgorithmDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

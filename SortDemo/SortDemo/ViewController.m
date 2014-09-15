@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "Headers.h"
+#import "SortHeaders.h"
 @interface ViewController ()
 
 @end
@@ -16,13 +16,7 @@
             
 - (void)viewDidLoad {
     [super viewDidLoad];
-//    [BubbleSort sort];
-//    [QuickSort sort];
-//    [SelectSort sort];
-//    [InsertSort sort];
-//    [BubbleSortNew1 sort];
-//    [SelectSortNew1 sort];
-    [ShellSort sort];
+
 }
 
 @end
