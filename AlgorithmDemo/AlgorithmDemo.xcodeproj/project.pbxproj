@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E6344EE19D075530044ECBA /* HeapSort_Small.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E6344ED19D075530044ECBA /* HeapSort_Small.m */; };
+		2E6344F119D075690044ECBA /* HeapSort_Big.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E6344F019D075690044ECBA /* HeapSort_Big.m */; };
 		2E92774E19C5597700C1EA87 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E92774D19C5597700C1EA87 /* main.m */; };
 		2E92775119C5597700C1EA87 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E92775019C5597700C1EA87 /* AppDelegate.m */; };
 		2E92775419C5597700C1EA87 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E92775319C5597700C1EA87 /* ViewController.m */; };
@@ -37,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2E6344EC19D075530044ECBA /* HeapSort_Small.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeapSort_Small.h; sourceTree = "<group>"; };
+		2E6344ED19D075530044ECBA /* HeapSort_Small.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeapSort_Small.m; sourceTree = "<group>"; };
+		2E6344EF19D075690044ECBA /* HeapSort_Big.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeapSort_Big.h; sourceTree = "<group>"; };
+		2E6344F019D075690044ECBA /* HeapSort_Big.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeapSort_Big.m; sourceTree = "<group>"; };
 		2E92774819C5597700C1EA87 /* AlgorithmDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlgorithmDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E92774C19C5597700C1EA87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E92774D19C5597700C1EA87 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -189,6 +195,10 @@
 				2E92778619C559EE00C1EA87 /* SelectSortNew1.m */,
 				2E92778719C559EE00C1EA87 /* ShellSort.h */,
 				2E92778819C559EE00C1EA87 /* ShellSort.m */,
+				2E6344EC19D075530044ECBA /* HeapSort_Small.h */,
+				2E6344ED19D075530044ECBA /* HeapSort_Small.m */,
+				2E6344EF19D075690044ECBA /* HeapSort_Big.h */,
+				2E6344F019D075690044ECBA /* HeapSort_Big.m */,
 			);
 			name = Sort;
 			sourceTree = "<group>";
@@ -292,9 +302,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E6344F119D075690044ECBA /* HeapSort_Big.m in Sources */,
 				2E92777619C5599200C1EA87 /* SearchBase.m in Sources */,
 				2E92778B19C559EE00C1EA87 /* BubbleSort.m in Sources */,
 				2E92779019C559EE00C1EA87 /* SelectSortNew1.m in Sources */,
+				2E6344EE19D075530044ECBA /* HeapSort_Small.m in Sources */,
 				2E92778C19C559EE00C1EA87 /* BubbleSortNew1.m in Sources */,
 				2E92777719C5599200C1EA87 /* SimpleSearch.m in Sources */,
 				2E92778F19C559EE00C1EA87 /* SelectSort.m in Sources */,

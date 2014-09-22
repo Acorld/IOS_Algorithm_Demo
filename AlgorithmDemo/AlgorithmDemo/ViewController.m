@@ -18,8 +18,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [self testSearch];
-//    [self testSort];
+//    [self testSearch];
+    [self testSort];
 }
 
 #pragma mark - Search
@@ -41,7 +41,7 @@
 //    [InsertSort sort];
 //    [BubbleSortNew1 sort];
 //    [SelectSortNew1 sort];
-    [ShellSort sort];
+    [HeapSort_Small sort];
 }
 
 @end

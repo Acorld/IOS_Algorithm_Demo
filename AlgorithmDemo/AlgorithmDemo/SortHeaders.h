@@ -16,6 +16,6 @@
 #import "BubbleSortNew1.h"
 #import "SelectSortNew1.h"
 #import "ShellSort.h"
-
-
+#import "HeapSort_Big.h"
+#import "HeapSort_Small.h"
 #endif
