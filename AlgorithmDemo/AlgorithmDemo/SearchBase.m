@@ -71,9 +71,11 @@ const int kSearchTarget = 8;
     NSMutableArray *data = [NSMutableArray new];
     for (int i = 0; i < kCountOfNumbers; i ++)
     {
-        [data addObject:@(rand() % (kCountOfNumbers * 10))];
+//        [data addObject:@(rand() % (kCountOfNumbers * 10))];
+        [data addObject:@((-rand() % (kCountOfNumbers * 5 + 1)) + kCountOfNumbers * 5 / 2)];
     }
     [data insertObject:@(kSearchTarget) atIndex:(rand() % kCountOfNumbers)];
+    NSLog(@"-%d ~ %d的正负数组合",kCountOfNumbers * 5 / 2,kCountOfNumbers * 5 / 2);
     return data;
 }
 

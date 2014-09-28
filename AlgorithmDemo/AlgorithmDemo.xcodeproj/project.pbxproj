@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E3BC37919D85AC5002DBA64 /* MaxSubSumQuadratic.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3BC37819D85AC5002DBA64 /* MaxSubSumQuadratic.m */; };
 		2E6344EE19D075530044ECBA /* HeapSort_Small.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E6344ED19D075530044ECBA /* HeapSort_Small.m */; };
 		2E6344F119D075690044ECBA /* HeapSort_Big.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E6344F019D075690044ECBA /* HeapSort_Big.m */; };
 		2E92774E19C5597700C1EA87 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E92774D19C5597700C1EA87 /* main.m */; };
@@ -39,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2E3BC37719D85AC5002DBA64 /* MaxSubSumQuadratic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaxSubSumQuadratic.h; sourceTree = "<group>"; };
+		2E3BC37819D85AC5002DBA64 /* MaxSubSumQuadratic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaxSubSumQuadratic.m; sourceTree = "<group>"; };
 		2E6344EC19D075530044ECBA /* HeapSort_Small.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeapSort_Small.h; sourceTree = "<group>"; };
 		2E6344ED19D075530044ECBA /* HeapSort_Small.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeapSort_Small.m; sourceTree = "<group>"; };
 		2E6344EF19D075690044ECBA /* HeapSort_Big.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeapSort_Big.h; sourceTree = "<group>"; };
@@ -171,6 +174,8 @@
 				2E92777319C5599200C1EA87 /* SimpleSearch.m */,
 				2E92777419C5599200C1EA87 /* DichotomySearch.h */,
 				2E92777519C5599200C1EA87 /* DichotomySearch.m */,
+				2E3BC37719D85AC5002DBA64 /* MaxSubSumQuadratic.h */,
+				2E3BC37819D85AC5002DBA64 /* MaxSubSumQuadratic.m */,
 			);
 			name = Search;
 			sourceTree = "<group>";
@@ -315,6 +320,7 @@
 				2E92775119C5597700C1EA87 /* AppDelegate.m in Sources */,
 				2E92777819C5599200C1EA87 /* DichotomySearch.m in Sources */,
 				2E92778E19C559EE00C1EA87 /* QuickSort.m in Sources */,
+				2E3BC37919D85AC5002DBA64 /* MaxSubSumQuadratic.m in Sources */,
 				2E92778D19C559EE00C1EA87 /* InsertSort.m in Sources */,
 				2E92779219C559EE00C1EA87 /* SortBase.m in Sources */,
 				2E92774E19C5597700C1EA87 /* main.m in Sources */,

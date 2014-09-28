@@ -18,8 +18,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-//    [self testSearch];
-    [self testSort];
+    [self testSearch];
+//    [self testSort];
 }
 
 #pragma mark - Search
@@ -27,7 +27,8 @@
 - (void)testSearch
 {
 //    [SimpleSearch search];
-    [DichotomySearch search];
+//    [DichotomySearch search];
+    [[MaxSubSumQuadratic base] searchMaxSubSumQuadratic];
 }
 
 #pragma mark - Sort
