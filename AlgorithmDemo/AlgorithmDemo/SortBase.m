@@ -21,7 +21,7 @@
 
 @end
 
-#define kCountOfNumbers 10
+#define kCountOfNumbers 10000
 @implementation SortBase
 
 + (id)base

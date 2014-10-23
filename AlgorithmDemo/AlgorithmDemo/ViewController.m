@@ -27,7 +27,8 @@
 - (void)testSearch
 {
 //    [SimpleSearch search];
-    [DichotomySearch search];
+//    [DichotomySearch search];
+    [[MaxSubSumQuadratic base] searchMaxSubSumQuadratic];
 }
 
 #pragma mark - Sort
@@ -41,7 +42,7 @@
 //    [InsertSort sort];
 //    [BubbleSortNew1 sort];
 //    [SelectSortNew1 sort];
-    [ShellSort sort];
+    [HeapSort_Small sort];
 }
 
 @end
