@@ -24,6 +24,7 @@
 		2E92779019C559EE00C1EA87 /* SelectSortNew1.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E92778619C559EE00C1EA87 /* SelectSortNew1.m */; };
 		2E92779119C559EE00C1EA87 /* ShellSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E92778819C559EE00C1EA87 /* ShellSort.m */; };
 		2E92779219C559EE00C1EA87 /* SortBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E92778A19C559EE00C1EA87 /* SortBase.m */; };
+		4660C20D19CD502C002778F1 /* HeapSort-Small.m in Sources */ = {isa = PBXBuildFile; fileRef = 4660C20C19CD502C002778F1 /* HeapSort-Small.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +75,8 @@
 		2E92778919C559EE00C1EA87 /* SortBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SortBase.h; sourceTree = "<group>"; };
 		2E92778A19C559EE00C1EA87 /* SortBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SortBase.m; sourceTree = "<group>"; };
 		2E92779319C55B2A00C1EA87 /* AlgorithmDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AlgorithmDemo-Prefix.pch"; sourceTree = "<group>"; };
+		4660C20B19CD502C002778F1 /* HeapSort-Small.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HeapSort-Small.h"; sourceTree = "<group>"; };
+		4660C20C19CD502C002778F1 /* HeapSort-Small.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HeapSort-Small.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,6 +192,8 @@
 				2E92778619C559EE00C1EA87 /* SelectSortNew1.m */,
 				2E92778719C559EE00C1EA87 /* ShellSort.h */,
 				2E92778819C559EE00C1EA87 /* ShellSort.m */,
+				4660C20B19CD502C002778F1 /* HeapSort-Small.h */,
+				4660C20C19CD502C002778F1 /* HeapSort-Small.m */,
 			);
 			name = Sort;
 			sourceTree = "<group>";
@@ -303,6 +308,7 @@
 				2E92775119C5597700C1EA87 /* AppDelegate.m in Sources */,
 				2E92777819C5599200C1EA87 /* DichotomySearch.m in Sources */,
 				2E92778E19C559EE00C1EA87 /* QuickSort.m in Sources */,
+				4660C20D19CD502C002778F1 /* HeapSort-Small.m in Sources */,
 				2E92778D19C559EE00C1EA87 /* InsertSort.m in Sources */,
 				2E92779219C559EE00C1EA87 /* SortBase.m in Sources */,
 				2E92774E19C5597700C1EA87 /* main.m in Sources */,
